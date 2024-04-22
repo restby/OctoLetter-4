@@ -16,7 +16,7 @@ const clean = () => {
 
 // typograf
 const html = () => {
-  return src(['./src/**/*.html'])
+  return src(['./src/*.html'])
     .pipe(fileInclude({
       prefix: '@',
       basepath: '@file'
